@@ -14,7 +14,7 @@ import java.util.concurrent.CompletableFuture
 import java.util.concurrent.TimeUnit
 
 
-class MainActor(private val googleKey: String, private val googleCx: String) : UntypedActor() {
+class MainActor(private val googleUrl: String, private val duckDuckGoUrl: String) : UntypedActor() {
     private val children = 2
     private val result = mutableListOf<AnswerDto>()
     private var received = 0
@@ -46,13 +46,14 @@ class MainActor(private val googleKey: String, private val googleCx: String) : U
             val googleActor = context.actorOf(
                 Props.create(
                     GoogleActor::class.java,
-                    googleKey, googleCx
+                    googleUrl
                 ),
                 "google"
             )
             val duckActor = context.actorOf(
                 Props.create(
-                    DuckDuckGoActor::class.java
+                    DuckDuckGoActor::class.java,
+                    duckDuckGoUrl
                 ),
                 "duck"
             )

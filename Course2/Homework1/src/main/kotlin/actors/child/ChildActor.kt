@@ -6,7 +6,7 @@ import model.exceptions.NoSuchMessageException
 import model.message.AnswerMessage
 import model.message.BrowseMessage
 
-abstract class ChildActor : UntypedActor() {
+abstract class ChildActor(val url: String) : UntypedActor() {
     abstract fun process(query: String, number: Int): MutableList<AnswerDto>
 
     override fun onReceive(message: Any?) {

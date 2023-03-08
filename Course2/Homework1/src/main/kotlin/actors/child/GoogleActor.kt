@@ -10,9 +10,8 @@ import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.json.Json
 import model.dto.AnswerDto
 import model.responses.GoogleAnswer
-import utils.Constants
 
-class GoogleActor(private val key: String, private val cx: String) : ChildActor() {
+class GoogleActor(url: String) : ChildActor(url) {
 
     override fun process(query: String, number: Int): MutableList<AnswerDto> {
         val client = HttpClient(CIO) {
@@ -23,17 +22,17 @@ class GoogleActor(private val key: String, private val cx: String) : ChildActor(
                 })
             }
         }
-        val answer = mutableListOf<AnswerDto>()
-        runBlocking {
+        return runBlocking {
             client
-                .get(Constants.GOOGLE_SEARCH_URL(key, cx, query, number))
+                .get(
+                    url +
+                            "&q=$query" +
+                            "&num=$number"
+                )
                 .body<GoogleAnswer>()
                 .items
-                .stream()
-                .forEach {
-                    answer.add(AnswerDto(it.title, it.link))
-                }
-        }
-        return answer
+        }.stream()
+            .map { AnswerDto(it.title, it.link) }
+            .toList()
     }
 }

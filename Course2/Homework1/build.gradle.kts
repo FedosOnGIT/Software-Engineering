@@ -15,20 +15,30 @@ repositories {
 
 dependencies {
     val ktorVersion = "2.2.4"
-    implementation("io.ktor:ktor-server-status-pages-jvm:$ktorVersion")
-    implementation("io.ktor:ktor-server-default-headers-jvm:$ktorVersion")
+    val jsoupVersion = "1.15.4"
+    val logbackVersion = "1.2.9"
+
+    //region ktor-server
     implementation("io.ktor:ktor-server-content-negotiation:$ktorVersion")
+    implementation("io.ktor:ktor-server-netty-jvm:$ktorVersion")
+    //endregion
+
+    //region ktor-client
     implementation("io.ktor:ktor-client-content-negotiation:$ktorVersion")
     implementation("io.ktor:ktor-serialization-kotlinx-json:$ktorVersion")
-    implementation("io.ktor:ktor-client-core:$ktorVersion")
     implementation("io.ktor:ktor-client-cio:$ktorVersion")
-    implementation("org.jsoup:jsoup:1.15.4")
+    //endregion
+
+    implementation("org.jsoup:jsoup:$jsoupVersion")
     implementation("com.typesafe.akka:akka-actor_2.11:2.4.17")
-    implementation("org.slf4j:slf4j-api:1.7.25")
+    implementation("ch.qos.logback:logback-classic:$logbackVersion")
+
     testImplementation(kotlin("test"))
-    implementation("io.ktor:ktor-server-netty-jvm:2.2.4")
-    implementation("io.ktor:ktor-server-core-jvm:2.2.4")
-    implementation("ch.qos.logback:logback-classic:1.2.9")
+    testImplementation("org.springframework.boot:spring-boot-starter-test:3.0.4")
+    testImplementation("com.squareup.okhttp3:mockwebserver:4.10.0")
+    testImplementation("io.ktor:ktor-server-test-host:$ktorVersion")
+    testImplementation("io.ktor:ktor-server-content-negotiation:$ktorVersion")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.2")
 }
 
 tasks.test {
