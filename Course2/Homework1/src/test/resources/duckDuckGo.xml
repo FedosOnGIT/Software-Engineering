@@ -1,0 +1,999 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!--[if IE 6]><html class="ie6" xmlns="http://www.w3.org/1999/xhtml"><![endif]--><!--[if IE 7]><html class="lt-ie8 lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]--><!--[if IE 8]><html class="lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]--><!--[if gt IE 8]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <!--<![endif]-->
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=1">
+        <meta name="referrer" content="origin">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="robots" content="noindex, nofollow">
+        <title>coffee at DuckDuckGo</title>
+        <link title="DuckDuckGo (HTML)" type="application/opensearchdescription+xml" rel="search"
+              href="//duckduckgo.com/opensearch_html_v2.xml">
+        <link href="//duckduckgo.com/favicon.ico" rel="shortcut icon">
+        <link rel="icon" href="//duckduckgo.com/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="//duckduckgo.com/assets/logo_icon128.v101.png">
+        <link rel="image_src" href="//duckduckgo.com/assets/logo_homepage.normal.v101.png">
+        <link type="text/css" media="handheld, all" href="//duckduckgo.com/h2122.css" rel="stylesheet">
+    </head>
+    <body class="body--html">
+        <a name="top" id="top"></a>
+        <form action="/html/" method="post">
+            <input type="text" name="state_hidden" id="state_hidden">
+        </form>
+        <div>
+            <div class="site-wrapper-border"></div>
+            <div id="header" class="header cw header--html">
+                <a title="DuckDuckGo" href="/html/" class="header__logo-wrap"></a>
+                <form name="x" class="header__form" action="/html/" method="post">
+                    <div class="search search--header">
+                        <input name="q" autocomplete="off" class="search__input" id="search_form_input_homepage"
+                               type="text" value="coffee">
+                        <input name="b" id="search_button_homepage" class="search__button search__button--html" value=""
+                               title="Search" alt="Search" type="submit">
+                    </div>
+                    <div class="frm__select">
+                        <select name="kl">
+                            <option value="">All Regions</option>
+                            <option value="ar-es">Argentina</option>
+                            <option value="au-en">Australia</option>
+                            <option value="at-de">Austria</option>
+                            <option value="be-fr">Belgium (fr)</option>
+                            <option value="be-nl">Belgium (nl)</option>
+                            <option value="br-pt">Brazil</option>
+                            <option value="bg-bg">Bulgaria</option>
+                            <option value="ca-en">Canada (en)</option>
+                            <option value="ca-fr">Canada (fr)</option>
+                            <option value="ct-ca">Catalonia</option>
+                            <option value="cl-es">Chile</option>
+                            <option value="cn-zh">China</option>
+                            <option value="co-es">Colombia</option>
+                            <option value="hr-hr">Croatia</option>
+                            <option value="cz-cs">Czech Republic</option>
+                            <option value="dk-da">Denmark</option>
+                            <option value="ee-et">Estonia</option>
+                            <option value="fi-fi">Finland</option>
+                            <option value="fr-fr">France</option>
+                            <option value="de-de">Germany</option>
+                            <option value="gr-el">Greece</option>
+                            <option value="hk-tzh">Hong Kong</option>
+                            <option value="hu-hu">Hungary</option>
+                            <option value="in-en">India (en)</option>
+                            <option value="id-en">Indonesia (en)</option>
+                            <option value="ie-en">Ireland</option>
+                            <option value="il-en">Israel (en)</option>
+                            <option value="it-it">Italy</option>
+                            <option value="jp-jp">Japan</option>
+                            <option value="kr-kr">Korea</option>
+                            <option value="lv-lv">Latvia</option>
+                            <option value="lt-lt">Lithuania</option>
+                            <option value="my-en">Malaysia (en)</option>
+                            <option value="mx-es">Mexico</option>
+                            <option value="nl-nl">Netherlands</option>
+                            <option value="nz-en">New Zealand</option>
+                            <option value="no-no">Norway</option>
+                            <option value="pk-en">Pakistan (en)</option>
+                            <option value="pe-es">Peru</option>
+                            <option value="ph-en">Philippines (en)</option>
+                            <option value="pl-pl">Poland</option>
+                            <option value="pt-pt">Portugal</option>
+                            <option value="ro-ro">Romania</option>
+                            <option value="ru-ru">Russia</option>
+                            <option value="xa-ar">Saudi Arabia</option>
+                            <option value="sg-en">Singapore</option>
+                            <option value="sk-sk">Slovakia</option>
+                            <option value="sl-sl">Slovenia</option>
+                            <option value="za-en">South Africa</option>
+                            <option value="es-ca">Spain (ca)</option>
+                            <option value="es-es">Spain (es)</option>
+                            <option value="se-sv">Sweden</option>
+                            <option value="ch-de">Switzerland (de)</option>
+                            <option value="ch-fr">Switzerland (fr)</option>
+                            <option value="tw-tzh">Taiwan</option>
+                            <option value="th-en">Thailand (en)</option>
+                            <option value="tr-tr">Turkey</option>
+                            <option value="us-en">US (English)</option>
+                            <option value="us-es">US (Spanish)</option>
+                            <option value="ua-uk">Ukraine</option>
+                            <option value="uk-en">United Kingdom</option>
+                            <option value="vn-en">Vietnam (en)</option>
+                        </select>
+                    </div>
+                    <div class="frm__select frm__select--last">
+                        <select class="" name="df">
+                            <option value="" selected>Any Time</option>
+                            <option value="d">Past Day</option>
+                            <option value="w">Past Week</option>
+                            <option value="m">Past Month</option>
+                            <option value="y">Past Year</option>
+                        </select>
+                    </div>
+                </form>
+            </div><!-- Web results are present -->
+            <div>
+                <div class="serp__results">
+                    <div id="links" class="results">
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a" href="https://www.britannica.com/topic/coffee">
+                                        Coffee | Origin, Types, Uses, History, &amp; Facts | Britannica
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow" href="https://www.britannica.com/topic/coffee">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/www.britannica.com.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url" href="https://www.britannica.com/topic/coffee">
+                                            www.britannica.com/topic/coffee
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet" href="https://www.britannica.com/topic/coffee"><b>coffee</b>,
+                                    beverage brewed from the roasted and ground seeds of the tropical evergreen <b>
+                                        coffee
+                                    </b> plants of African origin. <b>Coffee</b> is one of the three most popular
+                                    beverages in the world (alongside water and tea) and one of the most profitable
+                                    international commodities. Though <b>coffee</b> is the basis for an endless array of
+                                    beverages, its popularity is mainly attributed to its invigorating effect, which ...
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/">Coffee
+                                        | The Nutrition Source | Harvard T.H. Chan School of Public Health
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow"
+                                               href="https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/www.hsph.harvard.edu.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url"
+                                           href="https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/">
+                                            www.hsph.harvard.edu/nutritionsource/food-features/coffee/
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet"
+                                   href="https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/">Magnesium.
+                                    Plant chemicals: polyphenols including chlorogenic acid and quinic acid, and
+                                    diterpenes including cafestol and kahweol. One 8-ounce cup of brewed <b>coffee</b> contains
+                                    about 95 mg of caffeine. A moderate amount of <b>coffee</b> is generally defined as
+                                    3-5 cups a day, or on average 400 mg of caffeine, according to the Dietary
+                                    Guidelines for Americans.
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://www.healthline.com/nutrition/top-evidence-based-health-benefits-of-coffee">
+                                        9 Health Benefits of Coffee, Based on Science
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow"
+                                               href="https://www.healthline.com/nutrition/top-evidence-based-health-benefits-of-coffee">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/www.healthline.com.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url"
+                                           href="https://www.healthline.com/nutrition/top-evidence-based-health-benefits-of-coffee">
+                                            www.healthline.com/nutrition/top-evidence-based-health-benefits-of-coffee
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet"
+                                   href="https://www.healthline.com/nutrition/top-evidence-based-health-benefits-of-coffee">
+                                    This article takes an in-depth look at 9 of the top evidence-based benefits of <b>
+                                    coffee</b>. 1. Boosts energy levels. <b>Coffee</b> contains caffeine, a central
+                                    nervous system stimulant that is known for its ...
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://www.ncausa.org/About-Coffee/What-is-Coffee">What is Coffee? -
+                                        National Coffee Association
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow" href="https://www.ncausa.org/About-Coffee/What-is-Coffee">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/www.ncausa.org.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url"
+                                           href="https://www.ncausa.org/About-Coffee/What-is-Coffee">
+                                            www.ncausa.org/About-Coffee/What-is-Coffee
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet" href="https://www.ncausa.org/About-Coffee/What-is-Coffee">
+                                    What is <b>Coffee</b>? <b>cof·fee</b> /ˈkôfē,ˈkäfē/ noun The berries harvested from
+                                    species of Coffea plants. Everyone recognizes a roasted <b>coffee</b> bean, but you
+                                    might not recognize an actual <b>coffee</b> plant. <b>Coffee</b> trees are pruned
+                                    short to conserve their energy and aid in harvesting, but can grow to more than 30
+                                    feet (9 meters) high.
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a" href="https://en.wikipedia.org/wiki/Coffee">
+                                        Coffee - Wikipedia
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow" href="https://en.wikipedia.org/wiki/Coffee">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/en.wikipedia.org.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url" href="https://en.wikipedia.org/wiki/Coffee">
+                                            en.wikipedia.org/wiki/Coffee
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet" href="https://en.wikipedia.org/wiki/Coffee">
+                                    <b>Coffee</b>
+                                    is a drink prepared from roasted <b>coffee</b> beans. Darkly colored, bitter, and
+                                    slightly acidic, <b>coffee</b> has a stimulating effect on humans, primarily due to
+                                    its caffeine content. It has the highest sales in the world market for hot drinks.
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a" href="https://www.amazon.com/coffee/s?k=coffee">
+                                        Amazon.com: Coffee
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow" href="https://www.amazon.com/coffee/s?k=coffee">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/www.amazon.com.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url" href="https://www.amazon.com/coffee/s?k=coffee">
+                                            www.amazon.com/coffee/s?k=coffee
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet" href="https://www.amazon.com/coffee/s?k=coffee">Kauai Whole
+                                    Bean <b>Coffee</b>, Koloa Estate Medium Roast - Arabica Whole Bean <b>Coffee</b> from
+                                    Hawaii's Largest <b>Coffee</b> Grower - Bright Aroma with Light Floral Notes - 32
+                                    Ounce. Whole Bean · 2 Pound (Pack of 1) 4.5 (5,321) $2557 ($0.80/Ounce) $24.29 with
+                                    Subscribe &amp; Save discount.
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://thecozycoffee.com/types-of-coffee/">The 15+ Types Of Coffee
+                                        Explained: Ultimate Coffee Guide
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow" href="https://thecozycoffee.com/types-of-coffee/">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/thecozycoffee.com.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url" href="https://thecozycoffee.com/types-of-coffee/">
+                                            thecozycoffee.com/types-of-coffee/
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet" href="https://thecozycoffee.com/types-of-coffee/">Cold brew <b>
+                                    coffee
+                                </b> is a popular type of <b>coffee</b> all in itself, too. It is also an extremely
+                                    popular type of <b>coffee</b>. Put simply; it is ground <b>coffee</b> beans that are
+                                    steeped in room temperature water for 6 to 36 hours, all depending on how strong you
+                                    want the brew to be.
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://www.britannica.com/topic/history-of-coffee">History of coffee |
+                                        Origin, Discovery, &amp; Facts | Britannica
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow" href="https://www.britannica.com/topic/history-of-coffee">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/www.britannica.com.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url"
+                                           href="https://www.britannica.com/topic/history-of-coffee">
+                                            www.britannica.com/topic/history-of-coffee
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet" href="https://www.britannica.com/topic/history-of-coffee">
+                                    history of <b>coffee</b>, the discovery and spread of <b>coffee</b> as a stimulating
+                                    beverage. Wild <b>coffee</b> plants (Coffea species) are thought to have been native
+                                    to an Ethiopian plateau region known as Kefa (Kaffa), though the exact history of
+                                    their origin and domestication remains unclear. One of many legends about the
+                                    discovery of <b>coffee</b> is that of Kaldi, a goatherd who was puzzled by the
+                                    strange antics ...
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a" href="https://www.jbrookscoffeeroasters.com/">J.
+                                        Brooks Coffee Roasters - Best Coffee In Memphis
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow" href="https://www.jbrookscoffeeroasters.com/">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/www.jbrookscoffeeroasters.com.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url" href="https://www.jbrookscoffeeroasters.com/">
+                                            www.jbrookscoffeeroasters.com
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet" href="https://www.jbrookscoffeeroasters.com/">Our goal is
+                                    simple—to bring you the best <b>coffee</b>, period. J. Brooks <b>Coffee</b> Roasters
+                                    was founded in 2010 by <b>coffee</b> lovers who couldn't stay out of the business.
+                                    With over a decade of experience producing artisan <b>coffees</b>, we've melded our
+                                    passion and potential to create J. Brooks. We believe that everyone has their own
+                                    Roastinality. Which best ...
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://www.epicurious.com/expert-advice/storing-coffee-beans">Storing
+                                        Coffee Beans for the Freshest Tasting Brews is Easier Than You ...
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow"
+                                               href="https://www.epicurious.com/expert-advice/storing-coffee-beans">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/www.epicurious.com.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url"
+                                           href="https://www.epicurious.com/expert-advice/storing-coffee-beans">
+                                            www.epicurious.com/expert-advice/storing-coffee-beans
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet"
+                                   href="https://www.epicurious.com/expert-advice/storing-coffee-beans">While storing in
+                                    the freezer can prolong the life of your <b>coffee</b>, the beans stay fresh for a
+                                    good amount of time if stored at room temperature, and how long that is depends on
+                                    the roast level ...
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://parade.com/health/cinnamon-in-coffee-inflammation">Why Drinking
+                                        Coffee With Cinnamon Can Help Inflammation - Parade ...
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow"
+                                               href="https://parade.com/health/cinnamon-in-coffee-inflammation">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/parade.com.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url"
+                                           href="https://parade.com/health/cinnamon-in-coffee-inflammation">
+                                            parade.com/health/cinnamon-in-coffee-inflammation
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet"
+                                   href="https://parade.com/health/cinnamon-in-coffee-inflammation">It turns out that
+                                    plain <b>coffee</b> can help reduce inflammation," says functional medicine
+                                    nutritionist Barbara Sobel, MS, CNS, LND. She explains that this is because, like
+                                    cinnamon, <b>coffee</b> is high ...
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://www.delish.com/kitchen-tools/cookware-reviews/g33013485/best-coffee-brands/">
+                                        20 Best Coffee Brands of 2023 — Best Brands of Coffee - Delish
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow"
+                                               href="https://www.delish.com/kitchen-tools/cookware-reviews/g33013485/best-coffee-brands/">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/www.delish.com.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url"
+                                           href="https://www.delish.com/kitchen-tools/cookware-reviews/g33013485/best-coffee-brands/">
+                                            www.delish.com/kitchen-tools/cookware-reviews/g33013485/best-coffee-brands/
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet"
+                                   href="https://www.delish.com/kitchen-tools/cookware-reviews/g33013485/best-coffee-brands/">
+                                    Peet's Big Bang, a blend released to celebrate the 50th anniversary of Alfred Peet's
+                                    influential Berkley <b>coffee</b> shop, captures what people love about this
+                                    fair-trade brand. Extra smooth with a ...
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/coffee-and-health/faq-20058339">
+                                        Coffee and health: What does the research say? - Mayo Clinic
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow"
+                                               href="https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/coffee-and-health/faq-20058339">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/www.mayoclinic.org.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url"
+                                           href="https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/coffee-and-health/faq-20058339">
+                                            www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/coffee-and-health/faq-20058339
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet"
+                                   href="https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/coffee-and-health/faq-20058339">
+                                    When newer studies adjusted for such factors, they found a possible association
+                                    between <b>coffee</b> and decreased mortality. <b>Coffee</b> may offer some
+                                    protection against: Parkinson's disease. Type 2 diabetes. Liver disease, including
+                                    liver cancer. Heart attack and stroke. <b>Coffee</b> still has potential risks,
+                                    mostly due to its high caffeine content.
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://www.thepioneerwoman.com/food-cooking/a35153729/types-of-coffee/">20
+                                        Different Types of Coffee — Ultimate Guide to Coffee Drinks
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow"
+                                               href="https://www.thepioneerwoman.com/food-cooking/a35153729/types-of-coffee/">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/www.thepioneerwoman.com.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url"
+                                           href="https://www.thepioneerwoman.com/food-cooking/a35153729/types-of-coffee/">
+                                            www.thepioneerwoman.com/food-cooking/a35153729/types-of-coffee/
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet"
+                                   href="https://www.thepioneerwoman.com/food-cooking/a35153729/types-of-coffee/">No
+                                    frills here: Black <b>coffee</b> is made from plain ground <b>coffee</b> beans that
+                                    are brewed hot. It's served without added sugar, milk, or flavorings. Decaf. <b>
+                                        Coffee
+                                    </b> beans naturally contain caffeine, but roasters can use several different
+                                    processes to remove almost all of it. Decaf <b>coffee</b> is brewed with these
+                                    decaffeinated beans. Espresso
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://people.com/entertainment/people-picks/best-coffee-machines-oprah-taylor-swift/">
+                                        The Best Coffee and Espresso Machines According to Celebrities and ...
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow"
+                                               href="https://people.com/entertainment/people-picks/best-coffee-machines-oprah-taylor-swift/">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/people.com.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url"
+                                           href="https://people.com/entertainment/people-picks/best-coffee-machines-oprah-taylor-swift/">
+                                            people.com/entertainment/people-picks/best-coffee-machines-oprah-taylor-swift/
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet"
+                                   href="https://people.com/entertainment/people-picks/best-coffee-machines-oprah-taylor-swift/">
+                                    PEOPLE editors tried 4 <b>coffee</b> and espresso machines loved by celebrities like
+                                    Oprah and Taylor Swift. They evaluated them based on ease of use, the quality of the
+                                    drink it brewed, and overall ...
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://phys.org/news/2023-03-anthropogenic-climate-poses-coffee-cultivation.html">
+                                        Anthropogenic climate change poses systemic risk to coffee cultivation
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow"
+                                               href="https://phys.org/news/2023-03-anthropogenic-climate-poses-coffee-cultivation.html">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/phys.org.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url"
+                                           href="https://phys.org/news/2023-03-anthropogenic-climate-poses-coffee-cultivation.html">
+                                            phys.org/news/2023-03-anthropogenic-climate-poses-coffee-cultivation.html
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet"
+                                   href="https://phys.org/news/2023-03-anthropogenic-climate-poses-coffee-cultivation.html">
+                                    <b>Coffee</b>
+                                    is important to the economies of <b>coffee</b> producing regions. A study published
+                                    in PLOS Climate by Doug Richardson at CSIRO Oceans &amp; Atmosphere, Hobart,
+                                    Tasmania, Australia, and colleagues ...
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://www.target.com/c/whole-bean-coffee-beverages-grocery/-/N-n8upo">
+                                        Whole Bean Coffee : Target
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow"
+                                               href="https://www.target.com/c/whole-bean-coffee-beverages-grocery/-/N-n8upo">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/www.target.com.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url"
+                                           href="https://www.target.com/c/whole-bean-coffee-beverages-grocery/-/N-n8upo">
+                                            www.target.com/c/whole-bean-coffee-beverages-grocery/-/N-n8upo
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet"
+                                   href="https://www.target.com/c/whole-bean-coffee-beverages-grocery/-/N-n8upo">Counter
+                                    Culture Big Trouble Medium Roast Whole Bean <b>Coffee</b> - 12oz. Counter
+                                    Culture <b>Coffee</b>. 51. SNAP EBT eligible. $13.49 ($1.12/ounce) When purchased
+                                    online.
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://nypost.com/2023/03/06/wolf-gourmet-10-cup-coffee-maker-is-250-off-on-amazon/">
+                                        Wolf Gourmet 10-Cup Coffee Maker is $250 off on Amazon
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow"
+                                               href="https://nypost.com/2023/03/06/wolf-gourmet-10-cup-coffee-maker-is-250-off-on-amazon/">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/nypost.com.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url"
+                                           href="https://nypost.com/2023/03/06/wolf-gourmet-10-cup-coffee-maker-is-250-off-on-amazon/">
+                                            nypost.com/2023/03/06/wolf-gourmet-10-cup-coffee-maker-is-250-off-on-amazon/
+                                        </a>
+                                        <span>&nbsp; &nbsp; 2023-03-06</span>
+                                    </div>
+                                </div>
+                                <a class="result__snippet"
+                                   href="https://nypost.com/2023/03/06/wolf-gourmet-10-cup-coffee-maker-is-250-off-on-amazon/">
+                                    Wolf Gourmet Programmable <b>Coffee</b> Maker, $500, original price: $749. The Wolf
+                                    Gourmet Programmable <b>Coffee</b> Maker, now 33% off on Amazon, brews
+                                    superior-tasting <b>coffee</b> in a ten-cup, stainless steel ...
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://www.webmd.com/vitamins/ai/ingredientmono-980/coffee">COFFEE - Uses,
+                                        Side Effects, and More - WebMD
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow"
+                                               href="https://www.webmd.com/vitamins/ai/ingredientmono-980/coffee">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/www.webmd.com.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url"
+                                           href="https://www.webmd.com/vitamins/ai/ingredientmono-980/coffee">
+                                            www.webmd.com/vitamins/ai/ingredientmono-980/coffee
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet"
+                                   href="https://www.webmd.com/vitamins/ai/ingredientmono-980/coffee">
+                                    <b>Coffee</b>
+                                    is a popular drink made from the roasted beans of Coffea fruits (Coffea arabica,
+                                    Coffea canephora). It contains caffeine and chlorogenic acid. The caffeine in <b>
+                                    coffee
+                                </b> works by stimulating ...
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://www.ncausa.org/About-Coffee/How-to-Brew-Coffee">How to Brew Coffee
+                                        - National Coffee Association
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow"
+                                               href="https://www.ncausa.org/About-Coffee/How-to-Brew-Coffee">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/www.ncausa.org.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url"
+                                           href="https://www.ncausa.org/About-Coffee/How-to-Brew-Coffee">
+                                            www.ncausa.org/About-Coffee/How-to-Brew-Coffee
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet"
+                                   href="https://www.ncausa.org/About-Coffee/How-to-Brew-Coffee">If you are making your <b>
+                                    coffee
+                                </b> using a French Press, the contact time should be 2-4 minutes. Espresso has an
+                                    especially brief brew time — the <b>coffee</b> is in contact with the water for only
+                                    20-30 seconds. Cold brew, on the other hand, should steep overnight (about 12
+                                    hours).
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://www.healthline.com/nutrition/coffee-good-or-bad">Coffee — Good or
+                                        Bad? - Healthline
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow"
+                                               href="https://www.healthline.com/nutrition/coffee-good-or-bad">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/www.healthline.com.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url"
+                                           href="https://www.healthline.com/nutrition/coffee-good-or-bad">
+                                            www.healthline.com/nutrition/coffee-good-or-bad
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet"
+                                   href="https://www.healthline.com/nutrition/coffee-good-or-bad">Studies have shown
+                                    that <b>coffee</b> drinkers have up to a 65% lower risk of developing Alzheimer's
+                                    disease ( 14, 15, 16 ). Parkinson's is the second most common neurodegenerative
+                                    disease and is ...
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a" href="https://convergentcoffee.com/coffee/">What
+                                        is Coffee? Introduction to the Most Popular Brew
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow" href="https://convergentcoffee.com/coffee/">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/convergentcoffee.com.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url" href="https://convergentcoffee.com/coffee/">
+                                            convergentcoffee.com/coffee/
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet" href="https://convergentcoffee.com/coffee/">The Scandinavians
+                                    have the highest per-capita <b>coffee</b> intake in the world, with the people of
+                                    Finland drinking more than four cups each day. <b>Coffee</b> is second only to oil
+                                    as the most valuable export of developing countries. <b>Coffee</b> is consumed to
+                                    keep people up, keep them alert, and get them through the daily grind.
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://www.goodhousekeeping.com/food-recipes/g35012036/best-coffee-recipes/">
+                                        The 20 Best Coffee Recipes to Make at Home - Good Housekeeping
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow"
+                                               href="https://www.goodhousekeeping.com/food-recipes/g35012036/best-coffee-recipes/">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/www.goodhousekeeping.com.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url"
+                                           href="https://www.goodhousekeeping.com/food-recipes/g35012036/best-coffee-recipes/">
+                                            www.goodhousekeeping.com/food-recipes/g35012036/best-coffee-recipes/
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet"
+                                   href="https://www.goodhousekeeping.com/food-recipes/g35012036/best-coffee-recipes/">
+                                    Dirty Chai. This <b>coffee</b> shop favorite combines the spicy sweetness of a chai
+                                    latte with the extra pick-me-up of an espresso shot. Masala chai is prepared
+                                    latte-style with frothed milk, and the ...
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://www.allrecipes.com/article/types-of-coffee/">Different Types of
+                                        Coffee, Roasts, and Drinks - Allrecipes
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow"
+                                               href="https://www.allrecipes.com/article/types-of-coffee/">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/www.allrecipes.com.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url"
+                                           href="https://www.allrecipes.com/article/types-of-coffee/">
+                                            www.allrecipes.com/article/types-of-coffee/
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet" href="https://www.allrecipes.com/article/types-of-coffee/">
+                                    Cold Brew. Cold brew <b>coffee</b> is made with, as the name suggests, cold or cool
+                                    water, rather than hot. To get the best flavor, <b>coffee</b> grinds steep for 4 to
+                                    48 hours. The longer the grinds steep, the stronger the brew. Once the steeping
+                                    process is over, you can flavor with cream, milk, or sugar, and drink over ice.
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://www.webmd.com/diet/health-benefits-coffee">Coffee: Health Benefits,
+                                        Nutrients, Preparation, and More - WebMD
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow" href="https://www.webmd.com/diet/health-benefits-coffee">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/www.webmd.com.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url" href="https://www.webmd.com/diet/health-benefits-coffee">
+                                            www.webmd.com/diet/health-benefits-coffee
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet" href="https://www.webmd.com/diet/health-benefits-coffee">
+                                    <b>Coffee</b>
+                                    is an excellent source of several antioxidants, including hydrocinnamic acids and
+                                    polyphenols. These compounds may play a role in preventing several chronic and acute
+                                    conditions.
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="result results_links results_links_deep web-result ">
+                            <div class="links_main links_deep result__body"><!-- This is the visible part -->
+                                <h2 class="result__title">
+                                    <a rel="nofollow" class="result__a"
+                                       href="https://health.clevelandclinic.org/the-health-benefits-of-coffee/">Health
+                                        Benefits of Coffee - Cleveland Clinic
+                                    </a>
+                                </h2>
+                                <div class="result__extras">
+                                    <div class="result__extras__url">
+                                        <span class="result__icon">
+                                            <a rel="nofollow"
+                                               href="https://health.clevelandclinic.org/the-health-benefits-of-coffee/">
+                                                <img class="result__icon__img" width="16" height="16" alt=""
+                                                     src="//external-content.duckduckgo.com/ip3/health.clevelandclinic.org.ico"
+                                                     name="i15">
+                                            </a>
+                                        </span>
+                                        <a class="result__url"
+                                           href="https://health.clevelandclinic.org/the-health-benefits-of-coffee/">
+                                            health.clevelandclinic.org/the-health-benefits-of-coffee/
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="result__snippet"
+                                   href="https://health.clevelandclinic.org/the-health-benefits-of-coffee/">Caffeine's
+                                    positive side. <b>Coffee</b> gets its kick from caffeine, a natural stimulant that
+                                    makes you feel more energetic. Caffeine can get a bad rap, but it turns out the
+                                    caffeine in <b>coffee</b> does ...
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="nav-link">
+                            <form action="/html/" method="post">
+                                <input type="submit" class="btn btn--alt" value="Next">
+                                <input type="hidden" name="q" value="coffee">
+                                <input type="hidden" name="s" value="26">
+                                <input type="hidden" name="nextParams" value="">
+                                <input type="hidden" name="v" value="l">
+                                <input type="hidden" name="o" value="json">
+                                <input type="hidden" name="dc" value="27">
+                                <input type="hidden" name="api" value="d.js">
+                                <input type="hidden" name="vqd" value="4-303886433638905583510369688686876813095">
+                                <input name="kl" value="wt-wt" type="hidden">
+                            </form>
+                        </div>
+                        <div class=" feedback-btn">
+                            <a rel="nofollow" href="//duckduckgo.com/feedback.html" target="_new">Feedback</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div><!-- links wrapper //-->
+            </div>
+        </div>
+        <div id="bottom_spacing2"></div>
+        <img src="//duckduckgo.com/t/sl_h">
+    </body>
+</html>

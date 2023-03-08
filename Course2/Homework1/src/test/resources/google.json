@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "title": "google-ответ1",
+      "link": "google/ссылочка1"
+    },
+    {
+      "title": "google-ответ2",
+      "link": "google/ссылочка2"
+    },
+    {
+      "title": "google-ответ3",
+      "link": "google/ссылочка3"
+    },
+    {
+      "title": "google-ответ4",
+      "link": "google/ссылочка4"
+    },
+    {
+      "title": "google-ответ5",
+      "link": "google/ссылочка5"
+    }
+  ]
+}
