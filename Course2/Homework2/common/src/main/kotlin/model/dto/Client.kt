@@ -7,4 +7,5 @@ interface Client : Entity<Client> {
     val id: Int
     val name: String
     val phone: String
+    val subscriptions: List<Subscription>
 }

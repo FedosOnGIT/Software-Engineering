@@ -3,8 +3,8 @@ create table Clients_Subscriptions
     client_id       int,
     subscription_id int,
     primary key (client_id, subscription_id),
-    foreign key (client_id) references Client (id),
-    foreign key (subscription_id) references Subscription (id)
+    foreign key (client_id) references Clients (id),
+    foreign key (subscription_id) references Subscriptions (id)
 );
 
 create index client_id_index on Clients_Subscriptions using hash (client_id);
