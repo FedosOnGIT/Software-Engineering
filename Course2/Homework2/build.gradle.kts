@@ -13,8 +13,10 @@ version = "1.0-SNAPSHOT"
 
 val ktormVersion = "3.6.0"
 val ktorVersion = "2.2.4"
+val logbackVersion = "1.2.9"
 ext["ktormVersion"] = ktormVersion
 ext["ktorVersion"] = ktorVersion
+ext["logbackVersion"] = logbackVersion
 
 dependencies {
     testImplementation(kotlin("test"))

@@ -4,35 +4,30 @@ import io.ktor.http.*
 import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.application.*
 import io.ktor.server.plugins.contentnegotiation.*
-import io.ktor.server.request.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
-import model.request.EnterRequest
-import model.request.OutRequest
 import org.ktorm.database.Database
-import service.TurnstileService
+import service.ReportStatistics
 
 fun Application.configureRouting(database: Database) {
     install(ContentNegotiation) {
         json()
     }
 
-    val turnstile = TurnstileService(database)
+    val service = ReportStatistics(database = database)
 
     routing {
-        post("/enter") {
+        post("/visits") {
             try {
-                val request = call.receive<EnterRequest>()
-                val response = turnstile.enter(request)
+                val response = service.dateStatistics()
                 call.respond(HttpStatusCode.OK, response)
             } catch (exception: Exception) {
                 call.respond(HttpStatusCode.BadRequest, exception.message!!)
             }
         }
-        post("/out") {
+        post ("/average") {
             try {
-                val request = call.receive<OutRequest>()
-                val response = turnstile.out(request)
+                val response = service.avgStatistics()
                 call.respond(HttpStatusCode.OK, response)
             } catch (exception: Exception) {
                 call.respond(HttpStatusCode.BadRequest, exception.message!!)

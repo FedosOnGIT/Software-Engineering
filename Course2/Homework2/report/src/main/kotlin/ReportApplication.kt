@@ -10,7 +10,7 @@ fun main() {
         user = "homework2",
         dialect = PostgreSqlDialect()
     )
-    embeddedServer(Netty, port = 8082) {
+    embeddedServer(Netty, port = 8083) {
         configureRouting(database)
     }.start(wait = true)
 }
