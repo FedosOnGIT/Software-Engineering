@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    runtimeOnly 'org.postgresql:postgresql:42.5.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+task runDatabaseScripts(type: Exec) {
+    workingDir 'src/main/resources'
+    commandLine 'psql', '-U', 'homework2', '-d', 'fitness',
+            '-a', '-f', 'Client.sql',
+            '-a', '-f', 'Subscription.sql',
+            '-a', '-f', 'ClientsSubscriptions.sql',
+            '-a', '-f', 'Entrance.sql'
+}
+
+tasks.classes.dependsOn 'runDatabaseScripts'
