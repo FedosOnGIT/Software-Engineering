@@ -25,7 +25,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>sql-maven-plugin</artifactId>
-                <version>1.5</version>
+                <version>${sql.maven.version}</version>
                 <dependencies>
                     <dependency>
                         <groupId>org.postgresql</groupId>
@@ -52,23 +52,6 @@
                             </srcFiles>
                         </configuration>
                     </execution>
-<!--                    <execution>-->
-<!--                        <id>execute-products</id>-->
-<!--                        <phase>install</phase>-->
-<!--                        <goals>-->
-<!--                            <goal>execute</goal>-->
-<!--                        </goals>-->
-<!--                        <configuration>-->
-<!--                            <driver>org.postgresql.Driver</driver>-->
-<!--                            <url>jdbc:postgresql://localhost:5432/mydb</url>-->
-<!--                            <username>myuser</username>-->
-<!--                            <password>mypassword</password>-->
-<!--                            <autocommit>true</autocommit>-->
-<!--                            <srcFiles>-->
-<!--                                <srcFile>src/main/resources/products.sql</srcFile>-->
-<!--                            </srcFiles>-->
-<!--                        </configuration>-->
-<!--                    </execution>-->
                 </executions>
             </plugin>
         </plugins>
